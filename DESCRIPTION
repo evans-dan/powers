@@ -1,11 +1,14 @@
 Package: powers
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Raises numbers to powers 
+Version: 0.0.0.900
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Dan", "Evans", , "devans@cmmt.ubc.ca", role = c("aut", "cre"))
+Maintainer: "Dan Evans" <devans@cmmt.ubc.ca>
+Description: Calculates various powers of numeric data (squares, cubics, etc)
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
+Suggests:
+  testthat (>= 3.0.0)
 Config/roxygen2/version: 8.1.1
+Config/testthat/edition: 3
