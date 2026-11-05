@@ -1,0 +1,22 @@
+---
+title: "powers"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{powers}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(powers)
+```
+
+This is where the vignette would go. Vignettes are long, so we're not making a 
+real one.
